@@ -57,7 +57,7 @@ Cette requête renverra uniquement les tâches appartenant à la catégorie avec
 *   🔐 [django-cors-headers](https://github.com/adamchainz/django-cors-headers)
 *   🔸 [SQLite](https://sqlite.fr/guide/)
 
-## Installation et Lancement
+## Installation et lancement
 
 Suivez ces étapes pour mettre en place l'environnement de développement et lancer le projet.
 
