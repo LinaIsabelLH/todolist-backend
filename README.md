@@ -39,7 +39,7 @@ Voici la liste des points d'accès disponibles. Le préfixe de base de l'API est
 | `/api/tasks/{id}/` | `PUT`/`PATCH` | Mettre à jour une tâche. |
 | `/api/tasks/{id}/` | `DELETE` | Supprimer une tâche. |
 
-#### Filtrage des Tâches
+#### Filtrage des tâches
 
 Pour ne lister que les tâches d'une catégorie spécifique, utilisez le paramètre de requête `category_id`.
 
@@ -51,9 +51,11 @@ Cette requête renverra uniquement les tâches appartenant à la catégorie avec
 
 ## Technologies utilisées
 
-*   [Django](https://www.djangoproject.com/)
-*   [Django REST Framework](https://www.django-rest-framework.org/)
-*   [django-cors-headers](https://github.com/adamchainz/django-cors-headers)
+*   🐍 [Python](https://www.python.org/)
+*   🎯 [Django](https://www.djangoproject.com/)
+*   🧩 [Django REST Framework](https://www.django-rest-framework.org/)
+*   🔐 [django-cors-headers](https://github.com/adamchainz/django-cors-headers)
+*   🔸 [SQLite](https://sqlite.fr/guide/)
 
 ## Installation et Lancement
 
