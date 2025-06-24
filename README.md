@@ -1,4 +1,4 @@
-# ToDo List Project - API Backend
+# "To Do List" project - API backend
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
 ![Django](https://img.shields.io/badge/Django-4.x-green.svg)
