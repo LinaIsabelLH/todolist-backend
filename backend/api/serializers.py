@@ -12,7 +12,7 @@ class CategorySerializer(serializers.ModelSerializer):
         if not cleaned_name:  #Si la chaîne est vide, alors:
             raise serializers.ValidationError("Ce champ ne peut pas être vide ou contenir uniquement des espaces.")
         
-        if Category.objects.filter(__iexact=cleaned_name).exists():
+        if Category.objects.filter(name__iexact=cleaned_name).exists():
             raise serializers.ValidationError(f"Cette catégorie '{cleaned_name}' existe déjà")
         return cleaned_name.capitalize()  #on standardise le stockage du nom avec la 1ere lettre en majuscule
 

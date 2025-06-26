@@ -56,6 +56,9 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
         "http://localhost:3000", # L'origine de votre application React en développement
         "http://127.0.0.1:3000", # Parfois nécessaire selon comment le navigateur résout localhost
+        "http://localhost:5173",
+        "http://127.0.0.1:5173"
+    
     ]
 
 REST_FRAMEWORK = {
